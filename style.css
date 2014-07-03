@@ -14,21 +14,17 @@ html {
   border: 0;
   margin-top: 25px;
 }
-h1 {
-  font-size: 1.2em;
-  margin: 0.6em 0;
-}
-div#users-contain {
+#users-contain {
   width: 350px;
   margin: 20px 0;
 }
-div#users-contain table {
+#users-contain {
+table
   margin: 1em 0;
-  border-collapse: collapse;
-  width: 100%;
+  border-collapse: collapse width 100%;
 }
-div#users-contain table td,
-div#users-contain table th {
+#users-contain table td #users-contain table {
+th
   border: 1px solid #eee;
   padding: 0.6em 10px;
   text-align: left;
@@ -39,4 +35,10 @@ div#users-contain table th {
 .validateTips {
   border: 1px solid transparent;
   padding: 0.3em;
+}
+#dialog-form {
+  height: auto !important;
+}
+#login-box button {
+  cursor: pointer;
 }
